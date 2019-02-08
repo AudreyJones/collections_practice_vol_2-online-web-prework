@@ -38,7 +38,7 @@ end
 def remove_non_strings(array)
   i = 0
   while i < array.length
-    if array[i].is_a?(symbol) == true
+    if array[i].is_a? Symbol == true
       #remove it from the array
         array.delete(array[i])
 binding.pry
