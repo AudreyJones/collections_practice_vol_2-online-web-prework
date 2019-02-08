@@ -42,6 +42,7 @@ def remove_non_strings(array)
       #remove it from the array
       array.delete(array[i])
     elsif (array[i].is_a? Integer)
+      #remove it from the array
       array.delete(array[i])
 binding.pry
     #else, do nothing!
