@@ -39,7 +39,7 @@ def remove_non_strings(array)
   i = 0
   strings_only = []
   while i < array.length
-    
+
     i += 1
   end
 end
