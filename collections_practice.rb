@@ -35,18 +35,18 @@ def first_wa(array)
   end
 end
 
-# def remove_non_strings(array)
-#   i = 0
-#   while i < array.length
-#     i += 1
-#   end
+def remove_non_strings(array)
+  i = 0
+  while i < array.length
+    i += 1
+  end
+end
+
+# def count_elements
+# 
 # end
-
-def count_elements
-
-end
-
-
-def merge_data
-
-end
+# 
+# 
+# def merge_data
+# 
+# end
