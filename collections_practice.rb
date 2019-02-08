@@ -41,6 +41,7 @@ def remove_non_strings(array)
     if array[i].is_a?(sym) == true
       #remove it from the array
         array.delete(array[i])
+binding.pry
     #else, do nothing!
     end
     i += 1
