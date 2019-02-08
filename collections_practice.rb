@@ -40,7 +40,9 @@ def remove_non_strings(array)
   while i < array.length
     if (array[i].is_a? Symbol) || (array[i].is_a? Integer)
       #remove it from the array
-        array.delete(array[i])
+      array.delete(array[i])
+    elsif (array[i].is_a? Integer)
+      array.delete(array[i])
 binding.pry
     #else, do nothing!
     end
