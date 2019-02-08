@@ -41,3 +41,7 @@ end
 #     i += 1
 #   end
 # end
+
+def count_elements
+
+end
